@@ -1,0 +1,63 @@
+@media(min-width: 1171px) {
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: "Times";
+    font-size: 25px; }
+
+  h1 {
+    font-size: 100px; }
+
+  section {
+    width: 100%;
+    height: 100vh; }
+
+  #first {
+    background-color: green;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    #first .block {
+      width: 100px;
+      height: 100px;
+      background-color: lightgreen; }
+
+  #second {
+    background-color: cornflowerblue;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    #second .block {
+      width: 100px;
+      height: 100px;
+      background-color: lightblue; } }
+@media(max-width: 1170px) {
+  h1 {
+    font-size: 50px;
+    color: green; } }
+@media(max-width: 992px) {
+  h1 {
+    font-size: 25px;
+    color: red; } }
+@media(max-width: 768px) {
+  h1 {
+    font-size: 1px; } }
